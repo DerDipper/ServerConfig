@@ -1,4 +1,4 @@
 #!/bin/bash
 
-cp logind.conf /etc/systemd/logind.conf
+cp configurations/logind.conf /etc/systemd/logind.conf
 
