@@ -1,0 +1,9 @@
+[Unit]
+Description=Configure Wake-up on LAN
+
+[Service]
+Type=oneshot
+ExecStart=/sbin/ethtool -s enp2s0 wol g
+
+[Install]
+WantedBy=basic.target
